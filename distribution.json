@@ -1,280 +1,50 @@
 {
-  "version": 1,
+  "version": "1.0.0",
   "servers": [
     {
       "id": "ziggycraft",
       "name": "ZiggyCraft",
-      "description": "Ламповый сервер с модами | Create, TaCZ, Epic Knights и другие",
+      "description": "Ламповый сервер с модами | Create, TaCZ, Epic Knights",
+      "icon": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/icon.png",
       "address": "ziggycraft.polit.games:25643",
       "minecraftVersion": "1.20.1",
       "forgeVersion": "47.4.13",
       "mainServer": true,
       "autoconnect": true,
       "modules": [
-        {
-          "id": "create-1.20.1-0.5.1.j",
-          "name": "Create",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/create-1.20.1-0.5.1.j.jar"
-          }
-        },
-        {
-          "id": "createbigcannons-5.7.1-mc.1.20.1-forge",
-          "name": "Create Big Cannons",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/createbigcannons-5.7.1-mc.1.20.1-forge.jar"
-          }
-        },
-        {
-          "id": "createdieselgenerators-1.20.1-1.2i",
-          "name": "Create Diesel Generators",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/createdieselgenerators-1.20.1-1.2i.jar"
-          }
-        },
-        {
-          "id": "railways-1.6.7",
-          "name": "Create Steam 'n' Rails",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/Steam_Rails-1.6.7%2Bforge-mc1.20.1.jar"
-          }
-        },
-        {
-          "id": "trajanstanks-2.6",
-          "name": "Trajan's Tanks",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/trajans-tanks-forge-1.20.1-2.6.jar"
-          }
-        },
-        {
-          "id": "trajanscore-1.6",
-          "name": "Trajan's Core",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/trajanscore-1.6-1.20.1.jar"
-          }
-        },
-        {
-          "id": "tacz-1.1.8-hotfix",
-          "name": "TaCZ",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/tacz-1.20.1-1.1.8-hotfix.jar"
-          }
-        },
-        {
-          "id": "geckolib-4.7.4",
-          "name": "GeckoLib",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/geckolib-forge-1.20.1-4.7.4.jar"
-          }
-        },
-        {
-          "id": "immersive_aircraft-1.4.0",
-          "name": "Immersive Aircraft",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/immersive_aircraft-1.4.0%2B1.20.1-forge.jar"
-          }
-        },
-        {
-          "id": "smallships-2.0.0-b1.4",
-          "name": "Small Ships",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/smallships-forge-1.20.1-2.0.0-b1.4.jar"
-          }
-        },
-        {
-          "id": "automobility-0.4.2",
-          "name": "Automobility",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/automobility-0.4.2%2B1.20.1-forge.jar"
-          }
-        },
-        {
-          "id": "another_furniture-3.0.1",
-          "name": "Another Furniture",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/another_furniture-forge-1.20.1-3.0.1.jar"
-          }
-        },
-        {
-          "id": "siegemachines-1.39",
-          "name": "Siege Machines",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/siege-machines-1.20.1-forge-1.39.jar"
-          }
-        },
-        {
-          "id": "epic-knights-10.11",
-          "name": "Epic Knights",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/epic-knights-1.20.1-forge-10.11.jar"
-          }
-        },
-        {
-          "id": "sereneseasons-9.1.0.2",
-          "name": "Serene Seasons",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/SereneSeasons-forge-1.20.1-9.1.0.2.jar"
-          }
-        },
-        {
-          "id": "GlitchCore-0.0.1.1",
-          "name": "GlitchCore",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/GlitchCore-forge-1.20.1-0.0.1.1.jar"
-          }
-        },
-        {
-          "id": "architectury-9.2.14",
-          "name": "Architectury API",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/architectury-9.2.14-forge.jar"
-          }
-        },
-        {
-          "id": "cloth_config-11.1.136",
-          "name": "Cloth Config",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/cloth-config-11.1.136-forge.jar"
-          }
-        },
-        {
-          "id": "ritchiesprojectilelib-2.1.0",
-          "name": "Ritchie's Projectile Lib",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/ritchiesprojectilelib-2.1.0%2Bmc.1.20.1-forge.jar"
-          }
-        },
-        {
-          "id": "flywheel-0.6.11-13",
-          "name": "Flywheel",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/flywheel-forge-1.20.1-0.6.11-13.jar"
-          }
-        },
-        {
-          "id": "mixinextras-0.3.6",
-          "name": "MixinExtras",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/mixinextras-forge-0.3.6.jar"
-          }
-        },
-        {
-          "id": "simplebedrockmodel-2.2.2",
-          "name": "Simple Bedrock Model",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/simplebedrockmodel-2.2.2-forge%2Bmc1.20.1.jar"
-          }
-        },
-        {
-          "id": "drinkbeer-1.0.5",
-          "name": "Drink Beer Refill",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/drinkbeer-refill-1.20.1-1.0.5.jar"
-          }
-        },
-        {
-          "id": "plasmovoice-2.1.8",
-          "name": "Plasmo Voice",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/plasmovoice-forge-1.20.1-2.1.8.jar"
-          }
-        },
-        {
-          "id": "jei-15.20.0.130",
-          "name": "Just Enough Items",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/jei-1.20.1-forge-15.20.0.130.jar"
-          }
-        },
-        {
-          "id": "xaeros-minimap-25.3.13",
-          "name": "Xaero's Minimap",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/xaerominimap-forge-1.20.1-25.3.13.jar"
-          }
-        },
-        {
-          "id": "embeddium-0.3.31",
-          "name": "Embeddium",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/embeddium-0.3.31-mc1.20.1.jar"
-          }
-        },
-        {
-          "id": "canary-0.3.3",
-          "name": "Canary",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/canary-mc1.20.1-0.3.3.jar"
-          }
-        },
-        {
-          "id": "ferritecore-6.0.1",
-          "name": "FerriteCore",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/ferritecore-6.0.1-forge.jar"
-          }
-        },
-        {
-          "id": "clumps-12.0.0.4",
-          "name": "Clumps",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/clumps-forge-1.20.1-12.0.0.4.jar"
-          }
-        },
-        {
-          "id": "entityculling-1.10.2",
-          "name": "Entity Culling",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/entityculling-forge-1.10.2-mc1.20.1.jar"
-          }
-        },
-        {
-          "id": "mousetweaks-2.25",
-          "name": "Mouse Tweaks",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/mousetweaks-forge-mc1.20.1-2.25.jar"
-          }
-        },
-        {
-          "id": "jade-11.13.2",
-          "name": "Jade",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/jade-1.20.1-forge-11.13.2.jar"
-          }
-        }
+        {"id": "com.simibubi.create:create:1.20.1-0.5.1.j", "name": "Create", "type": "ForgeMod", "path": "create-1.20.1-0.5.1.j.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/create-1.20.1-0.5.1.j.jar"}},
+        {"id": "com.github.cannoneers-of-create:createbigcannons:5.7.1", "name": "Create Big Cannons", "type": "ForgeMod", "path": "createbigcannons-5.7.1-mc.1.20.1-forge.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/createbigcannons-5.7.1-mc.1.20.1-forge.jar"}},
+        {"id": "com.github.george8188625:createdieselgenerators:1.20.1-1.2i", "name": "Create Diesel Generators", "type": "ForgeMod", "path": "createdieselgenerators-1.20.1-1.2i.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/createdieselgenerators-1.20.1-1.2i.jar"}},
+        {"id": "com.github.layers-of-railways:railways:1.6.7", "name": "Create Steam 'n' Rails", "type": "ForgeMod", "path": "Steam_Rails-1.6.7+forge-mc1.20.1.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/Steam_Rails-1.6.7%2Bforge-mc1.20.1.jar"}},
+        {"id": "com.crescentine:trajanstanks:2.6", "name": "Trajan's Tanks", "type": "ForgeMod", "path": "trajans-tanks-forge-1.20.1-2.6.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/trajans-tanks-forge-1.20.1-2.6.jar"}},
+        {"id": "com.crescentine:trajanscore:1.6", "name": "Trajan's Core", "type": "ForgeMod", "path": "trajanscore-1.6-1.20.1.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/trajanscore-1.6-1.20.1.jar"}},
+        {"id": "com.tacz:tacz:1.1.8-hotfix", "name": "TaCZ", "type": "ForgeMod", "path": "tacz-1.20.1-1.1.8-hotfix.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/tacz-1.20.1-1.1.8-hotfix.jar"}},
+        {"id": "software.bernie.geckolib:geckolib-forge:4.7.4", "name": "GeckoLib", "type": "ForgeMod", "path": "geckolib-forge-1.20.1-4.7.4.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/geckolib-forge-1.20.1-4.7.4.jar"}},
+        {"id": "com.github.legacy-modding:immersive_aircraft:1.4.0", "name": "Immersive Aircraft", "type": "ForgeMod", "path": "immersive_aircraft-1.4.0+1.20.1-forge.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/immersive_aircraft-1.4.0%2B1.20.1-forge.jar"}},
+        {"id": "com.github.legacy-modding:smallships:2.0.0-b1.4", "name": "Small Ships", "type": "ForgeMod", "path": "smallships-forge-1.20.1-2.0.0-b1.4.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/smallships-forge-1.20.1-2.0.0-b1.4.jar"}},
+        {"id": "com.github.legacy-modding:automobility:0.4.2", "name": "Automobility", "type": "ForgeMod", "path": "automobility-0.4.2+1.20.1-forge.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/automobility-0.4.2%2B1.20.1-forge.jar"}},
+        {"id": "com.github.starfish-studios:another_furniture:1.20.1-3.0.1", "name": "Another Furniture", "type": "ForgeMod", "path": "another_furniture-forge-1.20.1-3.0.1.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/another_furniture-forge-1.20.1-3.0.1.jar"}},
+        {"id": "com.github.mrwinterpixel:siegemachines:1.39", "name": "Siege Machines", "type": "ForgeMod", "path": "siege-machines-1.20.1-forge-1.39.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/siege-machines-1.20.1-forge-1.39.jar"}},
+        {"id": "com.github.magistu:epic-knights:1.20.1-10.11", "name": "Epic Knights", "type": "ForgeMod", "path": "epic-knights-1.20.1-forge-10.11.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/epic-knights-1.20.1-forge-10.11.jar"}},
+        {"id": "com.github.glitchfiend:sereneseasons:1.20.1-9.1.0.2", "name": "Serene Seasons", "type": "ForgeMod", "path": "SereneSeasons-forge-1.20.1-9.1.0.2.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/SereneSeasons-forge-1.20.1-9.1.0.2.jar"}},
+        {"id": "com.github.glitchfiend:glitchcore:1.20.1-0.0.1.1", "name": "GlitchCore", "type": "ForgeMod", "path": "GlitchCore-forge-1.20.1-0.0.1.1.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/GlitchCore-forge-1.20.1-0.0.1.1.jar"}},
+        {"id": "dev.architectury:architectury:9.2.14", "name": "Architectury API", "type": "ForgeMod", "path": "architectury-9.2.14-forge.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/architectury-9.2.14-forge.jar"}},
+        {"id": "me.shedaniel.cloth:cloth-config-forge:11.1.136", "name": "Cloth Config", "type": "ForgeMod", "path": "cloth-config-11.1.136-forge.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/cloth-config-11.1.136-forge.jar"}},
+        {"id": "com.github.ritchies:ritchiesprojectilelib:2.1.0", "name": "Ritchie's Projectile Lib", "type": "ForgeMod", "path": "ritchiesprojectilelib-2.1.0+mc.1.20.1-forge.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/ritchiesprojectilelib-2.1.0%2Bmc.1.20.1-forge.jar"}},
+        {"id": "com.jozufozu.flywheel:flywheel-forge:0.6.11-13", "name": "Flywheel", "type": "ForgeMod", "path": "flywheel-forge-1.20.1-0.6.11-13.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/flywheel-forge-1.20.1-0.6.11-13.jar"}},
+        {"id": "com.github.llamalad7:mixinextras-forge:0.3.6", "name": "MixinExtras", "type": "ForgeMod", "path": "mixinextras-forge-0.3.6.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/mixinextras-forge-0.3.6.jar"}},
+        {"id": "com.github.krlily:simplebedrockmodel:2.2.2", "name": "Simple Bedrock Model", "type": "ForgeMod", "path": "simplebedrockmodel-2.2.2-forge+mc1.20.1.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/simplebedrockmodel-2.2.2-forge%2Bmc1.20.1.jar"}},
+        {"id": "com.github.cleannrooster:drinkbeer-refill:1.0.5", "name": "Drink Beer Refill", "type": "ForgeMod", "path": "drinkbeer-refill-1.20.1-1.0.5.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/drinkbeer-refill-1.20.1-1.0.5.jar"}},
+        {"id": "com.github.plasmovoice:plasmovoice-forge:2.1.8", "name": "Plasmo Voice", "type": "ForgeMod", "path": "plasmovoice-forge-1.20.1-2.1.8.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/plasmovoice-forge-1.20.1-2.1.8.jar"}},
+        {"id": "mezz.jei:jei-1.20.1-forge:15.20.0.130", "name": "Just Enough Items", "type": "ForgeMod", "path": "jei-1.20.1-forge-15.20.0.130.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/jei-1.20.1-forge-15.20.0.130.jar"}},
+        {"id": "xaeros.minimap:xaerominimap-forge:1.20.1-25.3.13", "name": "Xaero's Minimap", "type": "ForgeMod", "path": "xaerominimap-forge-1.20.1-25.3.13.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/xaerominimap-forge-1.20.1-25.3.13.jar"}},
+        {"id": "me.jellysquid.mods:embeddium:0.3.31", "name": "Embeddium", "type": "ForgeMod", "path": "embeddium-0.3.31-mc1.20.1.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/embeddium-0.3.31-mc1.20.1.jar"}},
+        {"id": "me.jellysquid.mods:canary:0.3.3", "name": "Canary", "type": "ForgeMod", "path": "canary-mc1.20.1-0.3.3.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/canary-mc1.20.1-0.3.3.jar"}},
+        {"id": "com.github.malte0811:ferritecore:6.0.1", "name": "FerriteCore", "type": "ForgeMod", "path": "ferritecore-6.0.1-forge.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/ferritecore-6.0.1-forge.jar"}},
+        {"id": "com.github.jaredlll08:clumps-forge:1.20.1-12.0.0.4", "name": "Clumps", "type": "ForgeMod", "path": "clumps-forge-1.20.1-12.0.0.4.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/clumps-forge-1.20.1-12.0.0.4.jar"}},
+        {"id": "com.github.tr7zw:entityculling-forge:1.10.2", "name": "Entity Culling", "type": "ForgeMod", "path": "entityculling-forge-1.10.2-mc1.20.1.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/entityculling-forge-1.10.2-mc1.20.1.jar"}},
+        {"id": "com.github.yannick.mcknight:mousetweaks-forge:2.25", "name": "Mouse Tweaks", "type": "ForgeMod", "path": "mousetweaks-forge-mc1.20.1-2.25.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/mousetweaks-forge-mc1.20.1-2.25.jar"}},
+        {"id": "com.github.snownee:jade:11.13.2", "name": "Jade", "type": "ForgeMod", "path": "jade-1.20.1-forge-11.13.2.jar", "artifact": {"size": 0, "MD5": "", "url": "https://raw.githubusercontent.com/ziggy-ak/ziggycraft-mods/main/jade-1.20.1-forge-11.13.2.jar"}}
       ]
     }
   ]
